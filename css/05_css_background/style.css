@@ -1,0 +1,101 @@
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.box{
+    height: 300px;
+    width: 300px;
+    border: 10px solid rgba(196, 158, 32, 0.582);
+    margin: 50px;
+}
+
+.box1{
+    background-image: linear-gradient(to bottom, orange,white, green);
+   
+}
+
+.box2{
+    background-image: linear-gradient(125deg, orange,white, green);
+}
+
+.para{
+    font-family: monospace;
+    padding: 10px;
+    font-size: 20px;
+}
+
+.box3{
+    width: 400px;
+    background-image: radial-gradient(  circle, green, white, orange);
+}
+
+.box4{
+    border-radius: 50%;
+    background-image: conic-gradient(  orange, white, green, orange);
+   
+}
+
+.box5{
+    background-image: url("https://wallpapersok.com/images/hd/sports-car-need-for-speed-zghioy8zvso05u42.jpg");
+
+    background-size:cover; 
+    background-repeat:  no-repeat; 
+
+    background-position:center;
+}
+
+
+.container {
+    width: 100%;
+    height: 100vh;
+    background-attachment: fixed;
+}
+
+.bg1{
+    background-image: url('https://cdn.wallpapersafari.com/8/43/F6buHQ.jpg'); 
+    background-size: cover;
+    background-position: bottom;
+    background-attachment: fixed;
+    
+}
+
+
+
+.bg2{
+    background: url('https://wallpapers.com/images/featured/hd-nature-ngdfb9h966h4z3le.jpg'), rgba(0, 0, 0, 0.322);
+    
+     background-size: cover;
+    background-position: bottom;
+    background-attachment: fixed;
+   
+}
+
+.bg3{
+    background: url('https://images8.alphacoders.com/449/449444.jpg'), rgba(0, 0, 0, 0.596);
+     background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.bg4{
+    background: url('https://images.squarespace-cdn.com/content/v1/5d777de8109c315fd22faf3a/1693407136044-G90XQURX1GABMYGAS8K1/shutterstock_1288634614.jpg?format=2500w'), rgba(0, 0, 0, 0.596);
+     background-size: cover;
+    background-position: bottom;
+    background-attachment: fixed;
+
+}
+
+.container h1{
+    text-align: center;
+    font-size: 60px;
+    font-family: cursive;
+    color: white;
+    line-height:100vh;
+}
+
+.bg{
+        background-blend-mode:overlay;
+}

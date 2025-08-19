@@ -1,0 +1,81 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.nav {
+  max-width: 1320px;
+  margin: auto;
+  height: fit-content;
+  padding: 10px;
+  /*border: 1px solid red;
+  */
+  border-radius: 6px;
+  /* box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px; */
+ 
+}
+.nav > b{
+    font-weight: 400;
+    color: rgba(65, 64, 64, 0.932);
+}
+
+.nav > b > b{
+   color: rgba(168, 166, 166, 0.932);
+   font-weight: 400;
+}
+
+.navtext {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  /* border: 1px solid green; */
+  width: auto;
+  height: auto;
+  font-size: 40px;
+  font-family: Okra, Helvetica, sans-serif;
+  font-weight: 900;
+  font-style: italic;
+}
+.navlogo {
+  display: flex;
+  flex-wrap: wrap;
+  width: 500px;
+  height: 60px;
+  margin-top: 10px;
+  border-radius: 10px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.navlogo > select {
+  padding: 10px;
+  margin: 10px;
+  border-radius: 5px;
+   margin-left:70px;
+}
+
+.navlogo > input {
+  padding: 10px;
+  margin: 10px;
+  border-radius: 5px;
+}
+.navlogo1 > button {
+  text-align: center;
+  font-size: 20px;
+  padding: 10px;
+  margin: 7px;
+  background-color: white;
+  border: none;
+  color: rgb(82, 82, 82);
+  font-weight: 600;
+}
+.lastnav > img {
+   width: 40px;
+   background-color: rgb(117, 245, 245);
+     border-radius: 100px 100px 100px 100px;
+ 
+}
+.lastnav > b {
+  font-size: 25px;
+  margin: 15px;
+
+}
+

@@ -1,0 +1,68 @@
+.box > p{
+    color:orange;
+}
+
+
+.box > div > p:last-child{
+background-color: lightgreen;
+}
+
+
+
+.box h4::first-letter{
+    font-size: 50px;
+    
+}
+
+
+
+.box h4 ::first-line{
+ background-color: red;
+}
+
+
+
+.list li:first-child{
+    text-decoration: line-through;
+}
+
+
+.list li:last-child{
+    text-decoration: underline;
+}
+
+
+.list li:nth-child(2n-1) {
+background-color: lightgreen;
+}
+
+.list list-style:nth-child(2n){
+background-color: orange;
+}
+
+
+ .table {
+    box-shadow: 10px 5px 20px;
+    
+ }
+
+
+ .table tr:nth-child(2n-1){
+    background-color: lightseagreen;
+ }
+ 
+
+ .table  td{
+        padding: 10px 20px;
+ }
+
+
+ .table tr{ 
+
+    background-color:lightblue;
+ }
+  .table th {
+    background-color:chocolate;
+  }
+
+

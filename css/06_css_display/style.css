@@ -1,0 +1,53 @@
+.inline{
+    display: inline;
+}
+
+.block{
+ display: block;
+}
+
+
+.box1{
+     width: 150px;
+    height: 150px;
+    background-color: lightblue;
+    margin: 20px;
+    padding: 20px;
+}
+
+.box2{
+    width: 150px;
+    height: 150px;
+    background-color: lightgreen;
+    margin: 20px;
+    padding: 20px;
+    display: inline;
+
+}
+.box{
+    width: 150px;
+    height: 150px;
+    background-color: orange;
+    margin: 5px;
+
+}
+
+.box1{
+    border: 1px solid red;
+    width: fit-content;
+    display: block;
+}
+
+.box2{
+    display:inline-block;
+}
+.ml-auto{
+     margin-left: auto;
+}
+.mr-auto{
+     margin-right: auto;
+}
+.m-auto{
+     margin-left: auto;
+     margin-right: auto;
+}
